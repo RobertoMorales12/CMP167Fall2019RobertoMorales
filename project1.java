@@ -15,6 +15,7 @@ public class Project1 {
         double result = 0;
       	double rad;
       	
+      	
         
         String calcMode;
         String operation;
@@ -34,8 +35,8 @@ public class Project1 {
         
         				numNums = scnr.nextInt();
        					System.out.println("Enter numbers: ");
-        
-       					for (i=0; i!= numNums ; ++i){
+        					
+       					for (i=0; i< numNums ; ++i){
             			x = scnr.nextDouble();
             			result += x;
                 
@@ -61,7 +62,7 @@ public class Project1 {
                 numNums = scnr.nextInt();
        					System.out.println("Enter numbers: ");
         
-       					for (i=0; i!= numNums ; ++i){
+       					for (i=0; i<numNums ; ++i){
             			x = scnr.nextDouble();
             			result -= x;
             }
@@ -85,12 +86,12 @@ public class Project1 {
                 System.out.print("How many numbers do you want to " + operationWord + " :");
                 numNums = scnr.nextInt();
        					System.out.println("Enter numbers: ");
-        
-       					for (i=1; i!= numNums ; ++i){
+        				result = scnr.nextDouble();
+       					for (i=1; i< numNums ; ++i){
             			x = scnr.nextDouble();
             			result *= x;
             }
-        		System.out.println(result);
+        		System.out.println(result);                
             System.out.println("Start over? Y/N");
          userAns = scnr.next();
          if(userAns.equalsIgnoreCase("Y")){
@@ -108,8 +109,8 @@ public class Project1 {
                 System.out.print("How many numbers do you want to " + operationWord + " :");
                 numNums = scnr.nextInt();
        					System.out.println("Enter numbers: ");
-        
-       					for (i=1; i!= numNums ; ++i){
+        				result=scnr.nextDouble();
+       					for (i=1; i< numNums ; ++i){
             			x = scnr.nextDouble();
             			result /= x;
             }
@@ -128,7 +129,6 @@ public class Project1 {
         		                
             } else {
                System.out.println("Invalid operation entered");
-		
             }
             
             
@@ -202,12 +202,12 @@ public class Project1 {
                 System.out.print("How many numbers do you want to " + operationWord + " :");
                 numNums = scnr.nextInt();
        					System.out.println("Enter numbers: ");
-        
-       					for (i=1; i!= numNums ; ++i){
+        				result = scnr.nextDouble();
+       					for (i=1; i< numNums ; ++i){
             			x = scnr.nextDouble();
             			result *= x;
             }
-        		System.out.println(result);
+        		System.out.println(result);  
                System.out.println("Start over? Y/N");
          userAns = scnr.next();
          if(userAns.equalsIgnoreCase("Y")){
@@ -225,8 +225,8 @@ public class Project1 {
                 System.out.print("How many numbers do you want to " + operationWord + " :");
                 numNums = scnr.nextInt();
        					System.out.println("Enter numbers: ");
-        
-       					for (i=1; i!= numNums ; ++i){
+        				result = scnr.nextDouble();
+       					for (i=1; i< numNums ; ++i){
             			x = scnr.nextDouble();
             			result /= x;
             }
@@ -304,4 +304,4 @@ public class Project1 {
    }
    }
 	}
-  
+   
