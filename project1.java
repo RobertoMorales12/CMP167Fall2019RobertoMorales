@@ -1,6 +1,6 @@
 import java.lang.Math;
 import java.util.Scanner;
-public class Project1 {
+public class Main {
    
     
     
